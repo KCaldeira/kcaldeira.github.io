@@ -36,10 +36,6 @@ description: >-
     {%- endif %}
   </section>
 
-  <p class="archive-intro">
-    {{ site.posts | size }} posts, newest first.
-  </p>
-
   {% assign posts_by_year = rest | group_by_exp: "post", "post.date | date: '%Y'" %}
   {% for year in posts_by_year %}
     <section class="year">

@@ -131,12 +131,6 @@ a:hover { color: var(--link-hover); }
 
 /* --- archive index ------------------------------------------------------- */
 
-.archive-intro {
-  font-family: var(--font-ui);
-  font-size: 0.9rem;
-  color: var(--fg-muted);
-  margin-top: 0;
-}
 .year { margin-bottom: 2.25rem; }
 .year-heading {
   font-family: var(--font-ui);
