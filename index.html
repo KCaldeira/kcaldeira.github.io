@@ -5,12 +5,42 @@ description: >-
   Essays and notes by Ken Caldeira on climate, carbon, and energy —
   the complete archive, 2015 to now.
 ---
+{%- comment -%}
+  The newest post gets a short teaser at the top, then the full archive.
+  `rest` removes the featured post from the list below so its title does not
+  appear twice; removing it by url rather than by position means no year
+  heading can end up above an empty list.
+{%- endcomment -%}
+{%- assign featured = site.posts.first -%}
+{%- assign rest = site.posts | where_exp: "p", "p.url != featured.url" -%}
+
 <div class="wrap">
+  <section class="featured">
+    <p class="featured-label">Latest</p>
+    <h2 class="featured-title">
+      <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
+    </h2>
+    <p class="featured-meta">
+      <time datetime="{{ featured.date | date_to_xmlschema }}">
+        {{ featured.date | date: "%-d %B %Y" }}
+      </time>
+    </p>
+    {%- comment -%}
+      Not `featured.excerpt`: that is the first paragraph, and posts here
+      routinely open with a figure include, which would put an image in the
+      teaser. Strip the rendered content to text instead.
+    {%- endcomment -%}
+    {%- assign teaser = featured.content | strip_html | normalize_whitespace -%}
+    {%- if teaser != "" %}
+    <p class="featured-excerpt">{{ teaser | truncatewords: 34, "…" }}</p>
+    {%- endif %}
+  </section>
+
   <p class="archive-intro">
     {{ site.posts | size }} posts, newest first.
   </p>
 
-  {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% assign posts_by_year = rest | group_by_exp: "post", "post.date | date: '%Y'" %}
   {% for year in posts_by_year %}
     <section class="year">
       <h2 class="year-heading" id="y{{ year.name }}">{{ year.name }}</h2>

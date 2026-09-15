@@ -91,8 +91,12 @@ def main():
           (SITE / "CNAME").read_text().strip() == "kencaldeira.com",
           "CNAME is kencaldeira.com")
     home = (SITE / "index.html").read_text()
-    n_links = len(re.findall(r'<a href="/\d{4}/\d{2}/', home))
-    check(n_links == len(posts), f"home links all {len(posts)} posts (found {n_links})")
+    # Count distinct post URLs, not anchor occurrences: the home page features
+    # the newest post above the archive, so one post can legitimately be
+    # linked more than once.
+    linked = set(re.findall(r'<a href="(/\d{4}/\d{2}/[^"]+/)"', home))
+    check(len(linked) == len(posts),
+          f"home links all {len(posts)} distinct posts (found {len(linked)})")
 
     print("\nremote images still hot-linked (for the dead-link pass):")
     remote = set()
