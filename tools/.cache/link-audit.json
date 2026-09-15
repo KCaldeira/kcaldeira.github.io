@@ -1,0 +1,1242 @@
+{
+ "http://CarnegieEnergyInnovation.org": {
+  "error": "",
+  "status": 403
+ },
+ "http://CarnegieEnergyInovation.org": {
+  "error": "[Errno -2] Name or service not known",
+  "status": 0
+ },
+ "http://ClimateFeedback.org": {
+  "error": "",
+  "status": 200
+ },
+ "http://advances.sciencemag.org/content/1/8/e1500589": {
+  "error": "",
+  "status": 403
+ },
+ "http://atomicinsights.com/14838-2/": {
+  "error": "",
+  "status": 200
+ },
+ "http://burndoc.libsyn.com/patient_ventilator_interactions_and_ventilator_discontinuation": {
+  "error": "",
+  "status": 200
+ },
+ "http://burndoc.libsyn.com/smoke-inhalation-injury": {
+  "error": "",
+  "status": 200
+ },
+ "http://burndoc.libsyn.com/therapeutic-hypothermia-after-cardiac-arrest": {
+  "error": "",
+  "status": 200
+ },
+ "http://carnegieenergyinnovation.org/index.php/jobs/": {
+  "error": "",
+  "status": 429
+ },
+ "http://carnegieenergyinnovation.org/wp-content/uploads/2017/10/Possner-Caldeira_PNAS2017_FigS10augmented.png": {
+  "error": "",
+  "status": 429
+ },
+ "http://ceassessment.org/": {
+  "error": "",
+  "status": 200
+ },
+ "http://ceassessment.org/larsen-c-climate-engineering-and-polar-ice-melt": {
+  "error": "",
+  "status": 200
+ },
+ "http://ceassessment.org/staff/thompson/": {
+  "error": "",
+  "status": 404
+ },
+ "http://cgarcia-sanchez.com/": {
+  "error": "[Errno -2] Name or service not known",
+  "status": 0
+ },
+ "http://climateenergylab.org": {
+  "error": "",
+  "status": 409
+ },
+ "http://contrailscience.com/": {
+  "error": "",
+  "status": 200
+ },
+ "http://davetroy.com/posts/the-real-republican-adversary-population-density": {
+  "error": "",
+  "status": 200
+ },
+ "http://dge.stanford.edu/labs/caldeiralab/Caldeira_research/Albright_OneTree.html": {
+  "error": "[Errno -2] Name or service not known",
+  "status": 0
+ },
+ "http://dge.stanford.edu/labs/caldeiralab/Caldeira_research/Govindasamy_Caldeira2.html": {
+  "error": "[Errno -2] Name or service not known",
+  "status": 0
+ },
+ "http://dge.stanford.edu/labs/caldeiralab/Caldeira_research/Hoffert_Caldeira3.html": {
+  "error": "[Errno -2] Name or service not known",
+  "status": 0
+ },
+ "http://feem.academia.edu/SoheilShayegh": {
+  "error": "",
+  "status": 200
+ },
+ "http://grist.org/news/enviros-and-climate-scientists-continue-their-fight-over-nuclear-power/": {
+  "error": "",
+  "status": 200
+ },
+ "http://ioc-unesco.org/": {
+  "error": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, c",
+  "status": 0
+ },
+ "http://iopscience.iop.org/article/10.1088/1748-9326/aa6e8a": {
+  "error": "",
+  "status": 200
+ },
+ "http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-15-0614.1": {
+  "error": "",
+  "status": 200
+ },
+ "http://menzelphoto.com/": {
+  "error": "timed out",
+  "status": 0
+ },
+ "http://mobile.nytimes.com/blogs/dotearth/2015/07/23/whiplash-warning-when-climate-science-is-publicized-before-peer-review-and-publication/": {
+  "error": "",
+  "status": 200
+ },
+ "http://news-oceanacidification-icc.org/2015/08/26/a-plea-to-ocean-acidification-scientists/": {
+  "error": "",
+  "status": 403
+ },
+ "http://pubs.rsc.org/en/Content/ArticleLanding/2018/EE/C7EE03029K": {
+  "error": "",
+  "status": 403
+ },
+ "http://pubs.rsc.org/en/content/articlelanding/2018/ee/c7ee03029k": {
+  "error": "",
+  "status": 403
+ },
+ "http://scholar.google.com/scholar?hl=en&q=persistent+contrails": {
+  "error": "",
+  "status": 200
+ },
+ "http://scholar.google.com/scholar?q=atmospheric+deposition+aluminum": {
+  "error": "",
+  "status": 200
+ },
+ "http://thefederalist.com/2018/06/08/scientific-discovery-will-nuke-climate-change-scaremongering/": {
+  "error": "",
+  "status": 200
+ },
+ "http://thinkprogress.org/climate/2012/03/12/442484/ken-caldeira-natural-gas-is-bridge-to-a-world-with-high-co2-levels-deployment-is-to-rampd-as-elephant-to-mouse/": {
+  "error": "",
+  "status": 403
+ },
+ "http://thinkprogress.org/climate/2012/04/15/462803/caldeira-only-ethical-path-is-to-stop-using-the-atmosphere-as-a-waste-dump-for-greenhouse-gas-pollution/": {
+  "error": "",
+  "status": 403
+ },
+ "http://thinkprogress.org/climate/2013/09/30/2699121/real-budget-crisis-co2/": {
+  "error": "",
+  "status": 403
+ },
+ "http://unfccc.int/essential_background/convention/items/6036.php": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.cbpp.org/research/tax-data-show-richest-1-percent-took-a-hit-in-2008-but-income-remained-highly-concentrated": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.climatecentral.org/news/congress-political-theater-threatens-science-climate-21316": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.econ.yale.edu/~nordhaus/homepage/homepage/DICE2013R_100413_vanilla.gms": {
+  "error": "[Errno -5] No address associated with hostname",
+  "status": 0
+ },
+ "http://www.feem.it/getpage.aspx?id=8704&sez=People": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.highco2-iv.org/": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.iep.utm.edu/pop-sci/": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.inchem.org/documents/ehc/ehc/ehc107.htm": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.latimes.com/business/hiltzik/la-fi-hiltzik-jacobson-lawsuit-20180223-story.html": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.livescience.com/2135-increasing-acid-kill-coral-2050.html": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.midaco-solver.com/": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.nationalreview.com/article/441595/voter-demographics-diversifying-republicans-falling-behind": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.npr.org/2013/04/22/176344300/this-scientist-aims-high-to-save-the-worlds-coral-reefs": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.pik-potsdam.de/~anders/": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.pnas.org/content/112/49/15060": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.pnas.org/content/114/26/6722": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.pnas.org/content/114/26/6722#ref-11": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.pnas.org/content/early/2017/10/03/1705710114.full": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.pnas.org/content/suppl/2017/10/03/1705710114.DCSupplemental/pnas.201705710SI.pdf": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.presidency.ucsb.edu/ws/?pid=21611": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.rexbass.com/2011/01/fender-jazz-bass-special.html": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.rollingstone.com/contributor/jeff-goodell": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.rsc.org/suppdata/c7/ee/c7ee03029k/c7ee03029k1.pdf": {
+  "error": "",
+  "status": 404
+ },
+ "http://www.sciencedirect.com/science/article/pii/S0301421517303130": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.sciencemag.org/news/2017/10/offshore-wind-farms-have-powerful-advantage-over-land-based-turbines-study-finds": {
+  "error": "",
+  "status": 403
+ },
+ "http://www.sfchronicle.com/science/article/Warning-from-climate-science-front-lines-4569221.php?t=4f3395796547b02379": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.slate.com/articles/podcasts/gist.html": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.smh.com.au/comment/ken-caldeira-on-the-reef-20160502-gokmoz.html": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.theatlantic.com/magazine/archive/2015/11/we-need-an-energy-miracle/407881/": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.theeuropean-magazine.com/373-caldeira-ken/372-climate-change-and-geo-engineering": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.timminchin.com/2013/09/25/occasional-address/": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.tulane.edu/~lamp/whiteside.pdf": {
+  "error": "timed out",
+  "status": 0
+ },
+ "http://www.usdebtclock.org/": {
+  "error": "",
+  "status": 200
+ },
+ "http://www.worldoceansday.org/": {
+  "error": "",
+  "status": 404
+ },
+ "https://agu.confex.com/agu/fm16/meetingapp.cgi/Session/13976": {
+  "error": "",
+  "status": 200
+ },
+ "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/93PA01163": {
+  "error": "",
+  "status": 403
+ },
+ "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2012JG001974": {
+  "error": "",
+  "status": 403
+ },
+ "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/GL017i009p01299": {
+  "error": "",
+  "status": 403
+ },
+ "https://airlinkflight.org/help-ukraine/": {
+  "error": "",
+  "status": 404
+ },
+ "https://arc.aiaa.org/doi/abs/10.2514/1.J053430": {
+  "error": "",
+  "status": 403
+ },
+ "https://artnow.ru/en/gallery/3/7956/picture.html": {
+  "error": "",
+  "status": 200
+ },
+ "https://assets.climatecentral.org/images/made/04_06_2017_Bobby_Magill_CC_Oil_FB_720_440_s_c1_c_c.jpg": {
+  "error": "",
+  "status": 200
+ },
+ "https://benlaude.com": {
+  "error": "",
+  "status": 200
+ },
+ "https://berkeleyearth.org/data/": {
+  "error": "",
+  "status": 200
+ },
+ "https://boldasbrasspodcast.libsyn.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://boldasbrasspodcast.libsyn.com/roger-argente": {
+  "error": "",
+  "status": 200
+ },
+ "https://bse.carnegiescience.edu/dr-ken-caldeira-emeritus": {
+  "error": "",
+  "status": 200
+ },
+ "https://bsky.app/profile/kencaldeira.com": {
+  "error": "",
+  "status": 404
+ },
+ "https://bsky.app/profile/kencaldeira.com/post/3m5iegf7ouc2p": {
+  "error": "",
+  "status": 404
+ },
+ "https://burndoc.libsyn.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://ciunit.org": {
+  "error": "",
+  "status": 200
+ },
+ "https://ciunit.org/": {
+  "error": "",
+  "status": 200
+ },
+ "https://ciunit.org/ken-caldeira.html": {
+  "error": "",
+  "status": 200
+ },
+ "https://climate.copernicus.eu/esotc/2021/low-winds": {
+  "error": "",
+  "status": 200
+ },
+ "https://content.cld.iop.org/journals/1748-9326/18/10/104051/revision3/erlacf949supp1.pdf?Expires=1697457309&Signature=Kt4XMOGuVcKru3KkaqjQsjlsFO8of5p0Y8DaPHVqgWBruSutCFRkgr6j7UY5n0Sl9BgQ5ivC6woMpPflWY9E2AkA95amOa~KVkUU6b~xpbZlQoqjPu1mICOM1nuAo8iylQSxn3lyH4ErJER4C9GzP0EGJX0TQ4oH9ouGv2x~a5cnb63lq5s0pWvLc5aoS~65SAA8-qtYKv5m4ExVkppH2Y1BMZSrcPWtkl8~nXI9tk~LlfCMtC5bs-LnKFoyqyBMmkb4t5vVPZ622xod3zQX3yBW3~sGhuoztiVtJxuOihmmVtK~zEhj0VWUvBglVWxZWLOnlpJS6uwAicX8hgd0TQ__&Key-Pair-Id=KL1D8TIY3N7T8": {
+  "error": "",
+  "status": 403
+ },
+ "https://data.giss.nasa.gov/gistemp/": {
+  "error": "",
+  "status": 200
+ },
+ "https://data.giss.nasa.gov/gistemp/graphs_v4/": {
+  "error": "",
+  "status": 200
+ },
+ "https://data.giss.nasa.gov/gistemp/maps/": {
+  "error": "",
+  "status": 200
+ },
+ "https://data.worldbank.org/indicator/EN.ATM.CO2E.PC": {
+  "error": "",
+  "status": 200
+ },
+ "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD": {
+  "error": "",
+  "status": 200
+ },
+ "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD": {
+  "error": "",
+  "status": 200
+ },
+ "https://dge.carnegiescience.edu/labs/caldeira-lab": {
+  "error": "timed out",
+  "status": 0
+ },
+ "https://dge.carnegiescience.edu/labs/caldeiralab/Caldeira_research/Hoffert_Caldeira3.html": {
+  "error": "timed out",
+  "status": 0
+ },
+ "https://dge.carnegiescience.edu/people/eantonini": {
+  "error": "timed out",
+  "status": 0
+ },
+ "https://dge.carnegiescience.edu/people/truggles": {
+  "error": "timed out",
+  "status": 0
+ },
+ "https://doi.org/10.1016/j.adapen.2021.100051": {
+  "error": "",
+  "status": 200
+ },
+ "https://doi.org/10.1038/s43247-024-01260-7": {
+  "error": "",
+  "status": 200
+ },
+ "https://donate.unhcr.org/int/en/ukraine-emergency": {
+  "error": "",
+  "status": 200
+ },
+ "https://dynamicecology.wordpress.com/2016/02/24/the-5-pivotal-paragraphs-in-a-paper/": {
+  "error": "[Errno -3] Temporary failure in name resolution",
+  "status": 0
+ },
+ "https://econ.gatech.edu/people/person/32fc7dd7-7afd-5548-940f-a4f99768cdaa": {
+  "error": "",
+  "status": 200
+ },
+ "https://economics.yale.edu/people/faculty/william-nordhaus": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.unesco.org/": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Clarke%27s_three_laws": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Condorcet_winner_criterion": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Copeland%27s_method": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/First-past-the-post_voting": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Henry_Paulson": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Instant-runoff_voting": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Is%E2%80%93ought_problem": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Log-normal_distribution": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/Roger_Revelle": {
+  "error": "",
+  "status": 200
+ },
+ "https://en.wikipedia.org/wiki/The_Federalist_(website)": {
+  "error": "",
+  "status": 200
+ },
+ "https://enricoantonini.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://eos.org/meeting-reports/achieving-a-near-zero-carbon-emissions-energy-system": {
+  "error": "",
+  "status": 200
+ },
+ "https://esd.copernicus.org/articles/11/875/2020/": {
+  "error": "",
+  "status": 200
+ },
+ "https://esd.copernicus.org/articles/11/875/2020/esd-11-875-2020-supplement.pdf": {
+  "error": "",
+  "status": 200
+ },
+ "https://euge.ca/chopin-2025": {
+  "error": "",
+  "status": 200
+ },
+ "https://evsc.as.virginia.edu/people/profile/sam8f": {
+  "error": "",
+  "status": 404
+ },
+ "https://github.com/KCaldeira/chopin_voting": {
+  "error": "",
+  "status": 200
+ },
+ "https://github.com/KCaldeira/chopin_voting/tree/main/data/input": {
+  "error": "",
+  "status": 200
+ },
+ "https://github.com/KCaldeira/chopin_voting/tree/main/data/output": {
+  "error": "",
+  "status": 200
+ },
+ "https://github.com/eantonini/Global_wind_droughts": {
+  "error": "",
+  "status": 200
+ },
+ "https://globalwindatlas.info/en/": {
+  "error": "",
+  "status": 200
+ },
+ "https://gmd.copernicus.org/articles/13/4993/2020/": {
+  "error": "",
+  "status": 200
+ },
+ "https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/carbondioxideremoval/B3rDjYOpgvY/HE7FGfsYBAAJ": {
+  "error": "",
+  "status": 200
+ },
+ "https://groups.google.com/forum/?utm_source=footer#!forum/carbondioxideremoval": {
+  "error": "",
+  "status": 200
+ },
+ "https://insideclimatenews.org/news/1112017/clean-energy-offshore-ocean-wind-turbines-floating-technology-north-atlantic-statoil-caldeira": {
+  "error": "",
+  "status": 200
+ },
+ "https://internationalmedicalcorps.org/updates/we-are-helping-people-affected-by-conflict-in-ukraine/": {
+  "error": "",
+  "status": 200
+ },
+ "https://iopscience.iop.org/article/10.1088/1748-9326/acf949": {
+  "error": "",
+  "status": 200
+ },
+ "https://irusa.org/europe/": {
+  "error": "",
+  "status": 200
+ },
+ "https://johnaugust.com/2021/sexy-ghosts-of-chula-vista": {
+  "error": "",
+  "status": 200
+ },
+ "https://johnaugust.com/scriptnotes": {
+  "error": "",
+  "status": 200
+ },
+ "https://judgemathistv.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://kencaldeira.wordpress.com/2016/12/11/solving-the-coffee-and-climate-problems/": {
+  "error": "",
+  "status": 403
+ },
+ "https://kencaldeira.wordpress.com/2016/12/12/coffee-and-climate-a-common-problem/": {
+  "error": "",
+  "status": 403
+ },
+ "https://kencaldeira.wordpress.com/2019/02/10/carl-sagan-lecture-by-ken-caldeira-at-the-2018-fall-american-geophysical-union-meeting/": {
+  "error": "",
+  "status": 403
+ },
+ "https://legionofhonor.famsf.org/": {
+  "error": "",
+  "status": 403
+ },
+ "https://link.springer.com/article/10.1007/s00338-019-01866-w": {
+  "error": "",
+  "status": 200
+ },
+ "https://mail.google.com/mail/u/0?ui=2&ik=240f0428c7&attid=0.0.1&permmsgid=msg-a:r-7212896880807176733&th=17a55cf41c379d88&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8nhUo_4YZAULXbM2trNvMfkCDXoD3NEbHxAL8dRb6yhpziIXmUxgP41vcCjySdRKSMMuPpFeXH7EYZJk7W7E8OBP_ydrZUO-s0Nw2SjGcGiifXHS1wfx-IhSo&disp=emb&realattid=ii_kqhh6y7w0": {
+  "error": "",
+  "status": 200
+ },
+ "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnature25968/MediaObjects/41586_2018_Article_BFnature25968_Fig1_HTML.jpg": {
+  "error": "",
+  "status": 200
+ },
+ "https://my.care.org/site/Donation2?idb=1018381337&df_id=31071&mfc_pref=T&31071.donation=form1": {
+  "error": "",
+  "status": 200
+ },
+ "https://ourenvironment.berkeley.edu/people/john-harte": {
+  "error": "",
+  "status": 200
+ },
+ "https://ourworldindata.org/": {
+  "error": "",
+  "status": 200
+ },
+ "https://ourworldindata.org/global-economic-inequality": {
+  "error": "",
+  "status": 200
+ },
+ "https://ourworldindata.org/grapher/gdp-per-capita-maddison-2020?yScale=log&time=1950..2018": {
+  "error": "",
+  "status": 404
+ },
+ "https://pbs.twimg.com/media/E32uWdUUcAsMxYl?format=jpg&name=small": {
+  "error": "",
+  "status": 200
+ },
+ "https://pbs.twimg.com/media/E4_dtM1VcAE8pUg?format=jpg&name=small": {
+  "error": "",
+  "status": 200
+ },
+ "https://projectcure.org/caring-for-ukraine/": {
+  "error": "",
+  "status": 200
+ },
+ "https://quoteinvestigator.com/2019/09/17/absence/": {
+  "error": "",
+  "status": 200
+ },
+ "https://recordingstudiorockstars.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://recordingstudiorockstars.com/rsr288-rafa-sardina-5-x-grammy-winning-mixer-for-alejandro-sanz-dr-dre-snoop-dogg-and-dangelo/": {
+  "error": "",
+  "status": 200
+ },
+ "https://scholar.google.com/citations?hl=en&user=-56AsZEAAAAJ": {
+  "error": "",
+  "status": 404
+ },
+ "https://scholar.google.com/citations?hl=en&user=33LsLSoAAAAJ&view_op=list_works&sortby=pubdate": {
+  "error": "",
+  "status": 200
+ },
+ "https://scholar.google.com/citations?hl=en&user=fIH3b_sAAAAJ&view_op=list_works&sortby=pubdate": {
+  "error": "",
+  "status": 200
+ },
+ "https://scholar.google.com/citations?hl=en&user=zgXf2JsAAAAJ&view_op=list_works&sortby=pubdate": {
+  "error": "",
+  "status": 200
+ },
+ "https://scholar.google.com/citations?user=nzfPAdkAAAAJ&hl=en&oi=ao": {
+  "error": "",
+  "status": 200
+ },
+ "https://science.sciencemag.org/content/360/6396/eaas9793": {
+  "error": "",
+  "status": 403
+ },
+ "https://science.sciencemag.org/content/sci/360/6396/eaas9793/F2.large.jpg?width=800&height=600&carousel=1": {
+  "error": "",
+  "status": 403
+ },
+ "https://sedac.ciesin.columbia.edu/": {
+  "error": "timed out",
+  "status": 0
+ },
+ "https://sites.google.com/site/williamdnordhaus/dice-rice": {
+  "error": "",
+  "status": 200
+ },
+ "https://sites.google.com/site/williamdnordhaus/gecon/data": {
+  "error": "",
+  "status": 200
+ },
+ "https://soundcloud.com/user-544863960/episode-17-ken-caldeira": {
+  "error": "",
+  "status": 200
+ },
+ "https://stackexchange.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://static-content.springer.com/esm/art%3A10.1038%2Fs43247-024-01260-7/MediaObjects/43247_2024_1260_MOESM2_ESM.pdf": {
+  "error": "",
+  "status": 200
+ },
+ "https://support.crs.org/donate/donate-ukraine": {
+  "error": "",
+  "status": 403
+ },
+ "https://sustainablesolutions.stanford.edu": {
+  "error": "",
+  "status": 200
+ },
+ "https://sustainablesolutions.stanford.edu/people/ken-caldeira/": {
+  "error": "",
+  "status": 200
+ },
+ "https://timesmachine.nytimes.com/timesmachine/1979/01/08/111067021.html?pageNumber=19": {
+  "error": "",
+  "status": 200
+ },
+ "https://travel.state.gov/content/dam/NEWadoptionassets/pdfs/Ukraine%20Fact%20Sheet%20Office%20of%20Children's%20Issues.pdf": {
+  "error": "",
+  "status": 403
+ },
+ "https://travel.state.gov/content/travel/en/Intercountry-Adoption.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://travel.state.gov/content/travel/en/News/Intercountry-Adoption-News/ukraine---adoption-update.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://travel.state.gov/content/travel/en/News/Intercountry-Adoption-News/ukraine---fact-sheet--how-you-can-help.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://travel.state.gov/content/travel/en/News/Intercountry-Adoption-News/ukraine---fact-sheet--how-you-can-help.html#ExternalPopup": {
+  "error": "",
+  "status": 403
+ },
+ "https://travel.state.gov/content/travel/en/News/Intercountry-Adoption-News/ukraine---statement-by-department-of-state-s-special-advisor-for.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://travel.state.gov/content/travel/en/News/visas-news/information-for-nationals-of-Ukraine.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Ukraine.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://twitter.com/ALevermann/status/918891097862168577": {
+  "error": "",
+  "status": 404
+ },
+ "https://twitter.com/BillGates/status/813749783106097152": {
+  "error": "",
+  "status": 200
+ },
+ "https://twitter.com/KenCaldeira": {
+  "error": "",
+  "status": 200
+ },
+ "https://twitter.com/KenCaldeira/status/1005462755460042752": {
+  "error": "",
+  "status": 200
+ },
+ "https://twitter.com/KenCaldeira/status/852919640594423808": {
+  "error": "",
+  "status": 200
+ },
+ "https://twitter.com/KenCaldeira/status/915660422266609664": {
+  "error": "",
+  "status": 200
+ },
+ "https://twitter.com/Revkin/status/1083956096199315457": {
+  "error": "",
+  "status": 200
+ },
+ "https://twitter.com/cascio": {
+  "error": "",
+  "status": 404
+ },
+ "https://ukraine.iom.int/": {
+  "error": "",
+  "status": 403
+ },
+ "https://ukraine.unfpa.org/en": {
+  "error": "",
+  "status": 200
+ },
+ "https://upload.wikimedia.org/wikipedia/commons/9/9d/RichardWagner.jpg": {
+  "error": "",
+  "status": 200
+ },
+ "https://uwaterloo.ca/environment/events/env-conversations-climate-expert-ken-caldeira": {
+  "error": "",
+  "status": 403
+ },
+ "https://water.usgs.gov/edu/watercycleice.html": {
+  "error": "",
+  "status": 200
+ },
+ "https://wck.org/search/tag/ukraine": {
+  "error": "",
+  "status": 200
+ },
+ "https://williamnordhaus.com/dicerice-models": {
+  "error": "[Errno -5] No address associated with hostname",
+  "status": 0
+ },
+ "https://wires.onlinelibrary.wiley.com/doi/10.1002/wcc.754": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.agci.org/event/98s1": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.allhandsandhearts.org/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.amazon.com/Adventures-Alexander-Humboldt-Pantheon-Graphic/dp/1524747378": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.amazon.com/Blink-Power-Thinking-Without/dp/0316010669": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.amazon.com/Consider-Spherical-Cow-Environmental-Problem/dp/093570258X": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.amazon.com/Dragons-Eden-Speculations-Evolution-Intelligence/dp/0345346297": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.amazon.com/Material-World-Global-Family-Portrait/dp/0871564300": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.anna-possner.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.breakthroughenergy.org/team/bios/ken-caldeira": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.cell.com/joule/abstract/S2542-4351(18)30225-3": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.cell.com/joule/fulltext/S2542-4351(18)30225-3": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.childfund.org/campaigns/emergencies/help-children-in-ukraine/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.chopincompetition.pl/en/newsroom/19th-chopin-competition-judges-scores?id=144&type=news": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.climateinteractive.org/analysis/economic-impact-of-climate-change-in-en-roads/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.ecmwf.int/en/forecasts/dataset/ecmwf-reanalysis-v5": {
+  "error": "",
+  "status": 401
+ },
+ "https://www.eia.gov/tools/glossary/": {
+  "error": "",
+  "status": 503
+ },
+ "https://www.energyforgrowth.org/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.energyforgrowth.org/multimedia/episode-5-ken-caldeira-lets-align-self-interest-with-global-climate-interest/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.energyforgrowth.org/wp-content/uploads/2018/07/engery-for-growth-logo.png": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.energyforgrowth.org/wp-content/uploads/2021/03/03Social.png": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.energyforgrowth.org/wp-content/uploads/2021/06/HEP_Twitter_Ken.png": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.facebook.com/andrey.lyssenko.art/": {
+  "error": "",
+  "status": 400
+ },
+ "https://www.fao.org/countryprofiles/index/en/?iso3=UKR": {
+  "error": "",
+  "status": 404
+ },
+ "https://www.flickr.com/photos/coloradochris/22444880389/in/photolist-f7pPAr-oLsP31-oQHuko-ow19Sn-ow23tg-ow1MKQ-pt2G1Q-pv36oq-gj9Qio-pv4Vd4-gt9aT4-AcnSYn-pv4VDz-pdza1y-tgGTvQ-L7ErfY-sBs3kV": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.gatesnotes.com/About-Bill-Gates/Best-Books-2016": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.gatesnotes.com/About-Bill-Gates/Year-in-Review-2016": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.gatesnotes.com/Energy/Clean-Energy-is-Gaining-Momentum": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.gofundme.com/f/ukraine-humanitarian-fund": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.hi-us.org/en/ukraine-emergency": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.husqvarna-motorcycles.com/us/svartpilen/svartpilen-401/": {
+  "error": "",
+  "status": 404
+ },
+ "https://www.icrc.org/en/donate/ukraine": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.icrc.org/en/where-we-work/ukraine": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.kidsave.org/ukraine/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.linkedin.com/in/ken-caldeira-2a45648/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.linkedin.com/in/zeke-hausfather-7327699/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.medicalteams.org/ukraine/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nasa.gov/image-feature/rift-in-antarcticas-larsen-c-ice-shelf": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/337732a0": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/425365a": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/nature17155": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/nature25968": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/nature25968?sf185021036=1": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/nclimate2036": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/nclimate2921": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/s41558-018-0093-1": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/s41598-021-91283-3": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/articles/s43247-024-01260-7": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nature.com/news/landmark-experiment-confirms-ocean-acidification-s-toll-on-great-barrier-reef-1.19410": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.newyorker.com/magazine/2006/11/20/the-darkening-sea": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.nrel.gov/analysis/re-futures.html": {
+  "error": "[Errno -5] No address associated with hostname",
+  "status": 0
+ },
+ "https://www.nytimes.com/2017/04/28/opinion/climate-of-complete-certainty.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.nytimes.com/2017/06/30/climate/scott-pruitt-climate-change-red-team.html": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.paulsoninstitute.org/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.paulsoninstitute.org/news/straight-talk-with-hank-paulson/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.pnas.org/content/114/43/11338": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.pnas.org/content/118/27/e2103875118": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.pnas.org/content/pnas/114/43/11338/F16.large.jpg": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.pnnl.gov/science/staff/staff_info.asp?staff_num=9084": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.projecthope.org/news-stories/responses/crisis-in-ukraine-how-to-help/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.reddit.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.reuters.com/investigates/special-report/climate-change-scientists-caldeira/": {
+  "error": "",
+  "status": 401
+ },
+ "https://www.salon.com/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.salon.com/writer/matthew_rozsa": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.savethechildren.net/what-we-do/emergencies/war-ukraine": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.science.org/doi/10.1126/sciadv.add3726": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.sciencedaily.com/releases/2018/03/180319124258.htm": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.sciencedirect.com/science/article/abs/pii/S0095069621000280": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.sciencedirect.com/science/article/abs/pii/S0301421517303130": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.sciencedirect.com/science/article/abs/pii/S0306261918311073": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.sciencedirect.com/science/article/abs/pii/S0306261920314835": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.sciencedirect.com/science/article/pii/S0142061514007765": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.sciencedirect.com/science/article/pii/S0370269318301035": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.sciencedirect.com/science/article/pii/S2666792421000433": {
+  "error": "",
+  "status": 403
+ },
+ "https://www.scientificamerican.com/article/5-things-to-know-about-the-trillion-ton-iceberg/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.state.gov/united-with-ukraine/": {
+  "error": "",
+  "status": 404
+ },
+ "https://www.technologyreview.com/s/543916/stop-emissions/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.theatlantic.com/author/robinson-meyer/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.theatlantic.com/science/archive/2018/06/its-possible-to-reverse-climate-change-suggests-major-new-study/562289/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.theguardian.com/environment/2013/aug/01/caribbean-coral-reef-loss": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.theguardian.com/environment/2016/jun/07/the-great-barrier-reef-a-catastrophe-laid-bare": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.un.org/en/development/desa/publications/world-population-prospects-2015-revision.html": {
+  "error": "",
+  "status": 404
+ },
+ "https://www.unicef.org/ukraine/en": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.unicefusa.org/what-unicef-does/where-unicef-works/europe/ukraine": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.unocha.org/ukraine": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.washingtonpost.com/news/capital-weather-gang/wp/2017/01/18/scientists-react-to-earths-warmest-year-we-are-heading-into-a-new-unknown": {
+  "error": "TimeoutError: The read operation timed out",
+  "status": 0
+ },
+ "https://www.washingtonpost.com/news/energy-environment/wp/2017/10/09/theres-enough-wind-energy-over-the-oceans-to-power-human-civilization-scientists-say/": {
+  "error": "TimeoutError: The read operation timed out",
+  "status": 0
+ },
+ "https://www.washingtonpost.com/politics/trump-to-announce-us-will-exit-paris-climate-deal/2017/06/01/fbcb0196-46da-11e7-bcde-624ad94170ab_story.html": {
+  "error": "TimeoutError: The read operation timed out",
+  "status": 0
+ },
+ "https://www.wfpusa.org/countries/ukraine/": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.who.int/ukraine": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/channel/UC7tOXKh6gmV4ryhu40tl-Xg": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/channel/UCG2Ymf6JFCwxyqaH6S-UsYQ": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/channel/UCidxwMu7WYFqyQAzK9q0ZKg": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=0U7PXjUG-Yk": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=3_Eq9H4bSdQ": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=BQHtYVjCCF0": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=HI3CS0xfico": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=MYFEQMAldaA": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=Qx55EmiFadg": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=UrrKnfpEnUI&list=PLafpqg3vsKmfNaZDum_5Mj2TxfD6PrFHD&index=4": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=VsR11uFzBJg": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=X0zIfAwniO4": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=X72uACIN_00": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=YA1Vc7A_ZU0": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=d5lIFTpPwt4": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=dvuiaOfTcIc": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=j5pATBWOsLc": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=qhlqcvQCVt4": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=rw-mg4hJcfs": {
+  "error": "",
+  "status": 200
+ },
+ "https://www.youtube.com/watch?v=zzldmIZ7sqg": {
+  "error": "",
+  "status": 200
+ },
+ "https://youtu.be/AzsruBUVdfA?si=3u6su-_yDBY_7I5V": {
+  "error": "",
+  "status": 200
+ }
+}

@@ -11,21 +11,18 @@ By default, do not run `git commit`, `git push`, or `gh` commands that write to
 the remote: make the file changes, report what changed, and leave the
 committing to him. When he does ask for a commit or push, go ahead and do it.
 
-## Content is generated — do not hand-edit `_posts/`
+## `_posts/` is the source of truth — edit it directly
 
-`tools/convert.py` **deletes and rewrites every file in `_posts/`** from the
-WordPress JSON snapshot in `tools/.cache/`. Anything typed directly into a post
-is lost on the next run. To change generated content, edit the source of truth:
+The WordPress migration is **done** and will not be re-run. Edit the Markdown in
+`_posts/` and `about.md` normally.
 
-| To change | Edit |
-|---|---|
-| A post's title | `tools/title-overrides.tsv` (`slug<TAB>title`), then re-run `convert.py` |
-| How markup converts | `tools/convert.py` |
-| A page's whole body | The `.md` file, and add `hand_edited: true` to its front matter |
-
-`hand_edited: true` makes `convert.py` skip that file. `about.md` has it — it was
-rewritten by hand from the CIunit bio, and without the flag the stale WordPress
-text would come back.
+`tools/convert.py` performed the one-time import and would overwrite everything
+from the 2026 WordPress snapshot, so it now **refuses to run without `--force`**.
+It is kept only as provenance: together with the committed snapshot in
+`tools/.cache/`, it documents exactly how each post was derived. Same for
+`tools/title-overrides.tsv` and `tools/link-replacements.tsv` — a record of what
+was corrected during the migration, not live configuration. Their contents are
+already baked into `_posts/`.
 
 ## Pipeline
 
@@ -65,6 +62,15 @@ cd _site && python3 -m http.server 8080
 
 Node here is v18; headless-browser tooling needs v20+, so visual checks are
 Ken's to make in a browser.
+
+## Site conventions
+
+- **Links to other domains open in a new tab.** Handled centrally by
+  `_includes/external-links.html`, pulled in by `_layouts/default.html`, which
+  adds `target="_blank"` and `rel="noopener noreferrer"` to any link whose
+  hostname differs from the site's. Do not annotate links individually, and do
+  not reach for `jekyll-target-blank` — it is not on the GitHub Pages plugin
+  allowlist. Internal links, `mailto:` and `#fragment` links are left alone.
 
 ## Invariants worth not breaking
 

@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Convert the WordPress JSON snapshot into Jekyll Markdown.
 
+HISTORICAL. This ran the one-time migration off WordPress. `_posts/` is now
+the hand-maintained source of truth, so this script refuses to run without
+--force: re-running it would overwrite real edits with the 2026 snapshot.
+Kept for provenance -- it documents exactly how the posts were derived.
+
 The source markup vocabulary is small and fully enumerated (it is plain
 Gutenberg output), so this hand-rolls the conversion rather than using a
 generic HTML->Markdown library, which mangles <figure>/<figcaption> pairs
@@ -44,6 +49,25 @@ def _load_title_overrides():
 
 
 TITLE_OVERRIDES = _load_title_overrides()
+
+
+def _load_link_replacements():
+    """old url -> new url, from tools/link-replacements.tsv."""
+    f = ROOT / "tools" / "link-replacements.tsv"
+    out = {}
+    if not f.exists():
+        return out
+    for line in f.read_text().splitlines():
+        line = line.rstrip()
+        if not line or line.startswith("#") or "\t" not in line:
+            continue
+        parts = line.split("\t")
+        if len(parts) >= 2 and parts[1].strip():
+            out[parts[0].strip()] = parts[1].strip()
+    return out
+
+
+LINK_REPLACEMENTS = _load_link_replacements()
 
 UPLOADS_RE = re.compile(r"https?://(?:www\.)?kencaldeira\.com/wp-content/uploads/", re.I)
 # Older posts still point at kencaldeira.files.wordpress.com, the WordPress.com
@@ -142,6 +166,8 @@ def local_asset(url):
     """
     if not url:
         return url
+    if url in LINK_REPLACEMENTS:
+        return LINK_REPLACEMENTS[url]
     if UPLOADS_RE.search(url):
         path = UPLOADS_RE.sub("", url).split("?")[0]
         local = "/assets/images/" + SIZE_SUFFIX_RE.sub("", path)
@@ -530,6 +556,13 @@ def convert_item(item, media_by_id):
 
 def main():
     check = "--check" in sys.argv
+    if "--force" not in sys.argv:
+        sys.exit(
+            "refusing to run: _posts/ is the hand-maintained source of truth "
+            "now, and this would overwrite it from the WordPress snapshot.\n"
+            "The migration is done; edit the Markdown in _posts/ directly.\n"
+            "Pass --force only if you really mean to regenerate everything."
+        )
     report.clear()
     posts = json.loads((CACHE / "posts.json").read_text())
     pages = json.loads((CACHE / "pages.json").read_text())

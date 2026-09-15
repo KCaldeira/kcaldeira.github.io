@@ -1,0 +1,21 @@
+{%- comment -%}
+  Make every link that leaves this site open in a new tab.
+
+  Done here rather than per-link because the posts are generated from the
+  WordPress snapshot and hold ~550 links; and rather than with a Jekyll
+  plugin because jekyll-target-blank is not on the GitHub Pages allowlist.
+  Links still work with JavaScript disabled -- they just open in the same tab.
+{%- endcomment -%}
+<script>
+(function () {
+  var here = location.hostname;
+  document.querySelectorAll('a[href]').forEach(function (a) {
+    // a.hostname is empty for mailto:/#fragment links, and equals `here`
+    // for internal ones; both should stay in the same tab.
+    if (!a.hostname || a.hostname === here) return;
+    a.target = '_blank';
+    // Without noopener the new tab can reach back into this one.
+    a.rel = (a.rel ? a.rel + ' ' : '') + 'noopener noreferrer';
+  });
+})();
+</script>

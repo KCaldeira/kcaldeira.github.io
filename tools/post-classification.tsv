@@ -1,0 +1,87 @@
+# Classification of every post, for deciding what moves to CIunit.
+# Format: <slug><TAB><category><TAB><note>      ('#' starts a comment)
+#
+# Categories:
+#   paper      Writes up or announces a specific peer-reviewed paper (usually Ken's own).
+#              Strongest candidates to move.
+#   science    Substantive scientific or technical content, but not tied to one paper:
+#              explainers, analyses, critiques, lectures. Good CIunit candidates.
+#   practice   About how research works - publishing, reproducibility, careers, choosing
+#              problems, science communication. Could go either way.
+#   personal   Personal, cultural, political or humorous. Stays on the blog.
+#
+# These are judgment calls; the paper/science and science/practice boundaries are fuzzy.
+# Edit this file and re-run tools/ciunit_handoff.py to regenerate the handoff doc.
+
+reversal-of-radiocarbon-flux-into-the-ocean	paper	PNAS; radiocarbon flux reversal
+will-using-a-carbon-tax-for-revenue-generate-create-an-incentive-to-continue-co2-emissions	paper	IOP/ERL; carbon tax revenue incentives
+learning-curves-and-clean-energy-rd-incremental-advances-or-aim-for-breakthroughs	paper	Energy Policy; learning curves vs breakthroughs
+ocean-heat-flux-and-open-ocean-wind-energy	paper	Possner & Caldeira, PNAS; open-ocean wind
+geophysical-constraints-on-the-reliability-of-solar-and-wind-power-in-the-united-states	paper	Energy & Env. Science; wind/solar reliability
+who-is-controlling-who-the-curious-case-of-the-algae-and-the-sea-anemone	paper	Coral Reefs, doi 10.1007/s00338-019-01866-w
+climate-change-as-an-incentive-to-future-human-migration-2	paper	Earth System Dynamics (Copernicus); migration
+replenishing-the-wind	paper	wind power potential and surface heat fluxes
+how-much-hydrogen-could-we-produce-without-adding-additional-generation-capacity	paper	Advances in Applied Energy, doi 10.1016/j.adapen.2021.100051
+multi-decadal-country-level-regressions-on-gdp-growth-and-temperature-change	paper	GDP growth vs temperature regressions
+the-value-of-reducing-the-green-premium	paper	Caldeira, Duan & Moreno-Cruz, ERL 18 104051 (2023)
+where-are-the-abundant-and-reliable-winds	paper	Antonini et al., doi 10.1038/s43247-024-01260-7
+where-do-the-winds-come-from	paper	short explainer on an AMS journal paper
+13-2	science	expert comment to SF Chronicle on Cook et al. megadrought paper
+fast-cheap-and-easy-and-very-dangerous	science	solar geoengineering risks
+from-an-email-to-a-friend-skeptical-about-the-reality-of-human-induced-climate-change	science	climate-change basics explainer
+the-arctic-is-becoming-warmer-and-the-ocean-is-becoming-more-acidic	science	Arctic warming and acidification
+helping-the-oceans-to-help-us	science	ocean health
+climate-of-risk-and-uncertainty	science	risk and uncertainty in climate
+larsen-c	science	ice shelf calving and solar geoengineering
+mzj-hydro-explainer	science	long technical critique of hydro capacity claims (4,000 words)
+how-much-ice-is-melted-by-each-carbon-dioxide-emission	science	per-emission ice loss
+carl-sagan-lecture-by-ken-caldeira-at-the-2018-fall-american-geophysical-union-meeting	science	AGU Sagan Lecture, 36 figures, 7,700 words
+ocean-acidification-a-career-journey-from-curiosity-driven-science-to-a-search-for-solutions	science	career retrospective citing many of his own papers
+addressing-market-failures-in-climate-technology-deployment-and-discovery	science	economics of technology deployment vs discovery
+income-inequality-and-climate-damage-relative-impact-on-utility	science	inequality and climate damage, utility analysis
+consumption-value-and-asset-value	science	conceptual economics
+thought-action-and-social-system-models-2	science	conceptual modelling of social systems
+high-energy-planet-interview-transcript	science	podcast transcript, substantive energy content
+climate-and-energy-discussion-on-straight-talk-with-hank-paulson	science	podcast transcript, climate and energy
+on-alan-robocks-comments-regarding-the-cia-and-climate-intervention	practice	geoengineering research controversy
+conspiracy-trails	practice	responding to chemtrail conspiracy claims
+do-open-discussion-journals-provide-a-service-to-the-scientific-community	practice	peer review and open-discussion journals
+play-and-hypothesis-testing-from-a-note-to-my-research-group	practice	research method, note to group
+statement-at-cop21-4-december-2015	practice	policy statement
+writing-an-oped-piece-on-ocean-acidification-for-the-sydney-morning-herald	practice	how an op-ed got written
+managing-earths-future-self-restraint-for-the-common-good-or-domination-by-incentive-and-power	practice	framing essay
+comments-on-closing-indian-point-nuclear-power-plant	practice	policy comment
+what-inspired-you-to-get-into-the-field-of-geoengineering	practice	field history, links early papers
+seeking-money-asking-to-help	practice	grant writing framing
+2016-is-earths-hottest-year-on-record-a-behind-the-washington-post-story	practice	science communication with press
+scientific-reproducibility-communication-of-uncertainty-and-the-us-house-of-representatives	practice	reproducibility and uncertainty
+red-team-blue-team	practice	on the red-team/blue-team proposal for climate science
+steps-to-writing-a-scientific-paper-based-on-model-results	practice	how to write a modelling paper
+what-do-you-do-when-a-poorly-expressed-idea-is-quoted-out-of-context-by-people-with-a-political-agenda	practice	the Joule quote-out-of-context episode
+on-choosing-problems-to-work-on	practice	choosing research problems
+a-modest-proposal-for-recommended-reading-ranking-for-scientific-literature	practice	proposal for ranking literature
+on-learning-to-see-the-glass-as-half-full	practice	reviewing and appreciation
+comments-on-allocating-resources-to-fusion-energy-research-and-development	practice	fusion R&D funding comment
+on-prescriptive-and-normative-statements-in-academic-research-papers	practice	normative claims in papers
+a-ban-on-solar-geoengineering-research	practice	on proposals to ban geoengineering research
+advice-for-college-undergraduates	practice	career advice
+getting-nasty-2	personal	very short personal note
+whats-one-initiative-project-or-change-in-human-behavior-thats-crucial-for-fixing-our-planet	personal	short Q&A answer
+am-i-capable-of-not-rejecting-nuclear-power	personal	personal reflection on nuclear
+ordinary-miracles	personal	essay
+the-unnecessary-conflict-between-urban-and-rural-america-2	personal	political essay
+comment-on-the-dakota-access-pipeline	personal	political comment
+solving-the-coffee-and-climate-problems	personal	humour
+coffee-and-climate-a-common-problem	personal	humour/analogy essay
+time-books-and-nice-words-from-mr-gates	personal	personal
+dark-ages-do-you-know-what-to-do	personal	essay
+trump-unfccc-2	personal	political
+imagine-it-is-year-2100-and-the-world-is-a-good-place-to-be	personal	speculative essay
+looking-for-postdocs-wanting-to-help-facilitate-a-transition-to-a-near-zero-emission-energy-system	personal	expired job ad
+consumerism-as-addiction	personal	essay
+wagner-scores-on-youtube	personal	music
+podcasts-aimed-at-professionals-in-other-professions-2	personal	podcast recommendations
+enough-responsibility-to-go-around	personal	essay
+aphorisms-and-over-simplifications	personal	aphorisms, 71 images
+ukraine-fact-sheet-how-you-can-help	personal	humanitarian resource list
+chopin-voting-analysis	personal	voting systems and the Chopin Competition
