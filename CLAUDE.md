@@ -150,6 +150,11 @@ working for existing subscribers.
 ### CIunit split
 
 `CIUNIT-HANDOFF.md` is ready to hand to whoever works on `ciunit.github.io`.
+**It classifies all 72 posts: 13 that write up a specific paper (the strongest
+move candidates), 17 of substantive science not tied to one paper, 22 about how
+research works, and 20 personal ones that stay here.** Per post it records the
+live URL, source file, size, subject and the papers it cites — read it there
+rather than duplicating the list here.
 Regenerate with `.venv/bin/python tools/ciunit_handoff.py` after editing the
 judgment calls in `tools/post-classification.tsv`. **If a post moves, leave a
 redirect** — every post URL has been indexed since as early as 2015.
