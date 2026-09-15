@@ -1,0 +1,10 @@
+# Images referenced by posts that no longer exist anywhere: absent from the
+# WordPress media library, 404 on the live site, and no Wayback snapshot.
+# Tracked here so tools/verify.py does not fail the build on them; see
+# DEAD-LINKS.md for the follow-up list.
+/assets/images/2019/01/20190112_115029_crop-1_lowres.jpg
+/assets/images/2021/11/image-1-3.png
+/assets/images/2021/11/image-1-7.png
+/assets/images/2021/11/image-1-22.png
+/assets/images/2021/11/image-1-24.png
+/assets/images/2021/11/image-1-28.png

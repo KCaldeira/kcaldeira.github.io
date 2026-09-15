@@ -1,0 +1,21 @@
+# Corrected post titles, applied by tools/convert.py when it writes front
+# matter. Kept here rather than edited into _posts/ directly because convert.py
+# regenerates _posts/ from the WordPress snapshot, which would overwrite them.
+#
+# Format: <slug><TAB><replacement title>   ('#' starts a comment)
+#
+# Nearly all of Ken's titles are sentence case; these bring the shouty and
+# Title Case outliers into line. Proper nouns and coined terms are preserved
+# on purpose: "Chopin Competition", "Green Premium", "MZJ" (Mark Z. Jacobson),
+# and event, podcast and publication names.
+
+addressing-market-failures-in-climate-technology-deployment-and-discovery	Addressing market failures in energy technology deployment and discovery
+chopin-voting-analysis	Voting analysis for the 19th Chopin Competition
+coffee-and-climate-a-common-problem	Coffee and climate: A common problem
+ukraine-fact-sheet-how-you-can-help	Ukraine – Fact sheet: How you can help
+ordinary-miracles	Ordinary miracles
+climate-of-risk-and-uncertainty	Climate of risk and uncertainty
+mzj-hydro-explainer	MZJ hydro explainer
+income-inequality-and-climate-damage-relative-impact-on-utility	Income inequality and climate damage: Relative impact on utility
+managing-earths-future-self-restraint-for-the-common-good-or-domination-by-incentive-and-power	Managing Earth’s future: Self-restraint for the common good?
+what-inspired-you-to-get-into-the-field-of-geoengineering	What inspired you to get into the field of geoengineering?

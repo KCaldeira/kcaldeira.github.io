@@ -1,0 +1,16 @@
+{%- comment -%}
+YouTube embed. Uses youtube-nocookie and lazy loading so a post full of
+embeds does not drag in tracking or block first paint.
+{%- endcomment -%}
+<figure class="fig video">
+  <div class="video-frame">
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}"
+            title="{{ include.title | default: 'YouTube video' }}"
+            loading="lazy" allowfullscreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </div>
+  {%- if include.caption %}
+  <figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
+  {%- endif %}
+</figure>

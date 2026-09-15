@@ -1,0 +1,13 @@
+{%- comment -%}
+A row of images from one WordPress gallery block. `srcs` and the optional
+`alts` are pipe-separated, because Liquid includes cannot take arrays.
+{%- endcomment -%}
+{%- assign srcs = include.srcs | split: '|' -%}
+{%- assign alts = include.alts | split: '|' -%}
+<div class="gallery">
+  {%- for src in srcs %}
+  <figure class="fig">
+    <img src="{{ src | relative_url }}" alt="{{ alts[forloop.index0] | default: '' }}" loading="lazy" decoding="async">
+  </figure>
+  {%- endfor %}
+</div>

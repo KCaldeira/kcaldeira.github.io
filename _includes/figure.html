@@ -1,0 +1,13 @@
+{%- comment -%}
+An image with an optional caption and an optional outbound link.
+Width/height are omitted deliberately: the source markup's dimensions refer
+to the pre-optimization files and would be wrong after resizing.
+{%- endcomment -%}
+<figure class="fig">
+  {%- if include.link %}<a href="{{ include.link }}" rel="noopener">{% endif -%}
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: '' }}" loading="lazy" decoding="async">
+  {%- if include.link %}</a>{% endif -%}
+  {%- if include.caption %}
+  <figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>
+  {%- endif %}
+</figure>

@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrap">
+    <p class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+    <p class="site-tagline">{{ site.tagline }}</p>
+    <nav class="site-nav" aria-label="Main">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      {%- for link in site.nav_external %}
+      <a class="external" href="{{ link.url }}" title="{{ link.label }}" rel="noopener">{{ link.title }}</a>
+      {%- endfor %}
+    </nav>
+  </div>
+</header>

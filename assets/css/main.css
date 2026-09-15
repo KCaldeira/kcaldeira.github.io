@@ -1,0 +1,355 @@
+/* ---------------------------------------------------------------------------
+   Ken Caldeira — content-first stylesheet.
+   Tokens are defined once on :root for light, then overridden for dark, so
+   every colour has a definition in both themes.
+   --------------------------------------------------------------------------- */
+
+:root {
+  color-scheme: light dark;
+
+  --bg:        #fdfdfc;
+  --bg-soft:   #f3f2ee;
+  --fg:        #1b1b1a;
+  --fg-muted:  #5f5f5a;
+  --fg-faint:  #85857e;
+  --rule:      #e0dfd8;
+  --link:      #1f5c8b;
+  --link-hover:#12405f;
+  --accent:    #8a5a2b;
+
+  /* Inline text colours carried over from the source posts, where they mark
+     quoted email and external material. Retuned for contrast, not copied. */
+  --tc-blue:   #1f5c8b;
+  --tc-navy:   #2b3d7a;
+  --tc-maroon: #8a2f2f;
+  --tc-gray:   #6b6b66;
+
+  --measure: 40rem;
+  --wide:    52rem;
+
+  --font-body: ui-serif, Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --font-ui:   ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #14151a;
+    --bg-soft:   #1d1f25;
+    --fg:        #e6e5e0;
+    --fg-muted:  #a8a7a0;
+    --fg-faint:  #85847d;
+    --rule:      #2e3038;
+    --link:      #7fb6dd;
+    --link-hover:#a8cff0;
+    --accent:    #d8a66a;
+
+    --tc-blue:   #7fb6dd;
+    --tc-navy:   #9aa8e8;
+    --tc-maroon: #e59a9a;
+    --tc-gray:   #a8a7a0;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.65;
+  text-rendering: optimizeLegibility;
+}
+
+.wrap {
+  width: 100%;
+  max-width: var(--measure);
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  padding: 0.5rem 0.75rem;
+  background: var(--bg-soft);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+
+a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a:hover { color: var(--link-hover); }
+
+/* --- header / footer ----------------------------------------------------- */
+
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  padding-block: 1.75rem 1.25rem;
+  margin-bottom: 2.5rem;
+}
+.site-title {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 1.4rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+.site-title a { color: var(--fg); text-decoration: none; }
+.site-tagline {
+  margin: 0.15rem 0 0;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+}
+.site-nav {
+  margin-top: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1rem;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+}
+
+.site-footer {
+  margin-top: 4rem;
+  padding-block: 1.5rem 2.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+.site-footer p { margin: 0; }
+
+/* --- archive index ------------------------------------------------------- */
+
+.archive-intro {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--fg-muted);
+  margin-top: 0;
+}
+.year { margin-bottom: 2.25rem; }
+.year-heading {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule);
+}
+.post-list { list-style: none; margin: 0; padding: 0; }
+.post-list li {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-block: 0.4rem;
+}
+.post-list a { text-decoration: none; }
+.post-list a:hover { text-decoration: underline; }
+.post-list time {
+  flex: none;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--fg-faint);
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- post --------------------------------------------------------------- */
+
+.post-header { margin-bottom: 2rem; }
+.post-title {
+  font-size: clamp(1.6rem, 1.2rem + 2vw, 2.3rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.4rem;
+}
+.post-meta {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--fg-faint);
+}
+
+.post-body > * + * { margin-top: 1.15em; }
+.post-body h2, .post-body h3, .post-body h4 {
+  font-family: var(--font-ui);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+}
+.post-body h2 { font-size: 1.35rem; }
+.post-body h3 { font-size: 1.15rem; }
+.post-body h4, .post-body h5, .post-body h6 { font-size: 1rem; }
+
+.post-body hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin-block: 2.5rem;
+}
+
+.post-body ul, .post-body ol { padding-left: 1.4rem; }
+.post-body li + li { margin-top: 0.35em; }
+
+.post-body blockquote {
+  margin-inline: 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--rule);
+  color: var(--fg-muted);
+}
+
+/* Inline colours from the source posts, mapped to theme-aware tokens. */
+.tc-blue   { color: var(--tc-blue); }
+.tc-navy   { color: var(--tc-navy); }
+.tc-maroon { color: var(--tc-maroon); }
+.tc-gray   { color: var(--tc-gray); }
+.tc-plain  { color: var(--fg); }
+
+.text-center { text-align: center; }
+
+.citation-title, .citation-authors {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  margin-top: 0.3em !important;
+}
+.citation-authors { color: var(--fg-muted); font-size: 0.875rem; }
+
+/* --- figures ------------------------------------------------------------ */
+
+/* Figures and tables may exceed the text measure; they stay centred on it. */
+.fig, .table-wrap, .gallery {
+  margin-inline: auto;
+  width: 100%;
+  max-width: var(--wide);
+}
+@media (min-width: 54rem) {
+  .fig, .table-wrap, .gallery {
+    margin-inline: calc((var(--measure) - var(--wide)) / 2);
+  }
+}
+
+.fig { margin-block: 2rem; }
+.fig img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: 3px;
+  background: var(--bg-soft);
+}
+.fig figcaption {
+  margin-top: 0.6rem;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--fg-muted);
+  text-align: center;
+}
+
+.post-body img { max-width: 100%; height: auto; }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.gallery .fig { flex: 1 1 14rem; margin-block: 0; }
+
+.video-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  background: var(--bg-soft);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* --- tables ------------------------------------------------------------- */
+
+/* Wide tables scroll inside their own box rather than the page. */
+.post-body table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+.post-body th, .post-body td {
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+}
+.post-body thead th {
+  border-bottom: 2px solid var(--rule);
+  font-weight: 650;
+  white-space: nowrap;
+}
+.post-body tbody tr:nth-child(even) { background: var(--bg-soft); }
+.table-caption {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--fg-muted);
+}
+
+/* --- prev / next -------------------------------------------------------- */
+
+.post-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 3.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+}
+.post-nav a {
+  flex: 1 1 14rem;
+  text-decoration: none;
+  line-height: 1.35;
+}
+.post-nav a:hover { text-decoration: underline; }
+.post-nav .next { text-align: right; }
+.post-nav span {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg-faint);
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 30rem) {
+  body { font-size: 1.0625rem; }
+  .post-list li { flex-direction: column; gap: 0.1rem; }
+}
+
+/* Outbound nav links carry a small arrow so leaving the site is visible. */
+.site-nav a.external::after {
+  content: "\2197";
+  margin-left: 0.15em;
+  font-size: 0.85em;
+  color: var(--fg-faint);
+}

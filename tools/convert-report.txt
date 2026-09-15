@@ -1,0 +1,2 @@
+note:heading-as-image	1
+note:inline-unwrapped:small	1

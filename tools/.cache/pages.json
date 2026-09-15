@@ -1,0 +1,23 @@
+[
+ {
+  "id": 2203,
+  "date": "2015-02-15T16:50:07",
+  "date_gmt": "2015-02-15T16:50:07",
+  "modified": "2022-12-22T17:44:20",
+  "slug": "about",
+  "status": "publish",
+  "link": "https://kencaldeira.com/about/",
+  "title": {
+   "rendered": "About @KenCaldeira"
+  },
+  "content": {
+   "rendered": "\n<p class=\"wp-block-paragraph\">This is the personal blog of Ken Caldeira.</p>\n\n\n\n<p class=\"wp-block-paragraph\">My main professional web site, and also the web site for the collaborative group in which I am enmeshed, is <a rel=\"noreferrer noopener\" href=\"http://climate-energy.org\" target=\"_blank\">climate-energy.org</a>.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I work for <a href=\"https://breakthroughenergy.org/our-team/ken-caldeira/\" target=\"_blank\" rel=\"noreferrer noopener\">Breakthrough Energy</a>. </p>\n\n\n\n<p class=\"wp-block-paragraph\">I lead a research group at <a rel=\"noreferrer noopener\" href=\"https://bse.carnegiescience.edu/dr-ken-caldeira-emeritus\" target=\"_blank\">Carnegie Institution for Science</a> on the Stanford University campus.</p>\n\n\n\n<p class=\"wp-block-paragraph\">I have a <a href=\"https://www.linkedin.com/in/ken-caldeira-2a45648/\" target=\"_blank\" rel=\"noreferrer noopener\">LinkedIn </a>page and a <a href=\"https://twitter.com/KenCaldeira\" target=\"_blank\" rel=\"noreferrer noopener\">Twitter </a>account.</p>\n\n\n\n<p class=\"wp-block-paragraph\"><a href=\"https://www.reuters.com/investigates/special-report/climate-change-scientists-caldeira/\" target=\"_blank\" rel=\"noreferrer noopener\">Reuters did a biographical sketch of me </a>a few years ago that is a good general overview (thanks, Maurice Tamman!).</p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"570\" src=\"https://kencaldeira.com/wp-content/uploads/2022/12/image-1024x570.png\" alt=\"\" class=\"wp-image-2355\" srcset=\"https://kencaldeira.com/wp-content/uploads/2022/12/image-1024x570.png 1024w, https://kencaldeira.com/wp-content/uploads/2022/12/image-300x167.png 300w, https://kencaldeira.com/wp-content/uploads/2022/12/image-768x427.png 768w, https://kencaldeira.com/wp-content/uploads/2022/12/image.png 1073w\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" /><figcaption class=\"wp-element-caption\">Photo by Lucas Jackson/REUTERS.</figcaption></figure>\n</div>",
+   "protected": false
+  },
+  "excerpt": {
+   "rendered": "<p>This is the personal blog of Ken Caldeira. My main professional web site, and also the web site for the collaborative group in which I am enmeshed, is climate-energy.org. I work for Breakthrough Energy. I lead a research group at Carnegie Institution for Science on the Stanford University campus. I have a LinkedIn page and &hellip; <a href=\"https://kencaldeira.com/about/\" class=\"more-link\">Continue reading <span class=\"screen-reader-text\">About @KenCaldeira</span> <span class=\"meta-nav\">&rarr;</span></a></p>\n",
+   "protected": false
+  },
+  "featured_media": 0
+ }
+]

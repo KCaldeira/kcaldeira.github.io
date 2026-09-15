@@ -1,0 +1,55 @@
+title: "Ken Caldeira"
+tagline: "Environmental science of climate, carbon, and energy"
+description: >-
+  The personal blog of Ken Caldeira: environmental science of climate,
+  carbon, and energy.
+author: Ken Caldeira
+
+# Outbound links shown in the site nav.
+nav_external:
+  - title: CIunit
+    url: https://ciunit.org/
+    label: "Conceptual Investigations Unit"
+url: "https://kencaldeira.com"
+baseurl: ""
+lang: en-US
+timezone: Etc/UTC
+
+# Matches the WordPress permalinks exactly, so every existing inbound link
+# and search result keeps working after the cutover.
+permalink: /:year/:month/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+feed:
+  path: feed.xml
+  # jekyll-feed ships a 10-entry cap; the whole archive is only 72 posts,
+  # so carry a useful window of recent writing instead.
+  posts_limit: 30
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page }
+
+sass:
+  style: compressed
+
+exclude:
+  - tools/
+  - originals/
+  - .venv/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
