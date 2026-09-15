@@ -86,8 +86,70 @@ Ken's to make in a browser.
 
 ## Outstanding
 
-Dead-link pass, deferred until the site is live: the 6 unrecoverable images,
-5 hot-linked images already returning 403/404 (PNAS, Science, 2× Twitter,
-Carnegie), 1 Gmail-attachment image URL that only renders for Ken, inline
-Twitter links (account no longer used), and WordPress's old `/feed/` path,
-which is now `/feed.xml`.
+State as of 15 Sep 2026. The site is **live** at `https://kencaldeira.com` with a
+valid certificate and Enforce HTTPS on. Everything below is follow-up.
+
+### Two GoDaddy changes Ken needs to make (Claude cannot)
+
+1. **`www` over HTTPS is broken.** The certificate covers only
+   `kencaldeira.com` (`SAN: DNS:kencaldeira.com`), so `https://www.kencaldeira.com`
+   fails TLS. `http://www...` is fine — it 301s to the apex. Cause: the `www`
+   CNAME points at `kencaldeira.com`; GitHub only adds `www` to the cert when it
+   points at `kcaldeira.github.io`.
+   → In GoDaddy DNS for **kencaldeira.com**, edit the `www` CNAME:
+   `kencaldeira.com` → `kcaldeira.github.io` (TTL is 1 hour, so allow for that).
+   → Then re-trigger issuance: `gh api -X PUT repos/KCaldeira/kcaldeira.github.io/pages -f cname=`
+   followed by the same call with `-f cname=kencaldeira.com`. A same-value PUT is
+   *not* enough — the domain has to be removed and re-added. Confirm with
+   `openssl s_client -connect kencaldeira.com:443 -servername kencaldeira.com | openssl x509 -noout -ext subjectAltName`
+   and expect both names.
+
+2. **`kencaldeira.org` still forwards to the stale mirror.** It 301s to
+   `https://kencaldeira.wordpress.com`, a WordPress.com copy of this blog whose
+   newest post is March 2025 (it is missing the Nov 2025 Chopin post).
+   → GoDaddy → kencaldeira.org → **DNS tab, bottom of the page → Forwarding**
+   (not the DNS records table: the apex `A` records `15.197.225.128` /
+   `3.33.251.168` are GoDaddy's forwarding servers and are locked). Set
+   destination `https://kencaldeira.com`, **301 permanent, forward only, no
+   masking**. The DNS records will look unchanged afterwards — verify by
+   following the redirect, not by reading the zone.
+
+**Never touch** on either domain: the `MX` records (`smtp.secureserver.net`,
+`mailstore1.secureserver.net`) or the mail CNAMEs — that is live email. Nor the
+NS records, nor the four apex `A` records on `.com`.
+
+### Retire the old hosting
+
+The old site was **GoDaddy Managed WordPress** (IP `160.153.0.83`,
+`host.secureserver.net`). Turn off auto-renew on the Managed WordPress plan and
+any SSL / site-security add-on — GitHub supplies the certificate now.
+**Keep** the domain registrations, GoDaddy DNS, and the email product.
+`Account Settings → Renewals & Billing` lists every product in one place.
+There is also a GoDaddy "Website" product attached to `kencaldeira.org` worth
+checking. Prefer switching auto-renew off over cancelling immediately: the paid
+term then preserves the rollback option, which is restoring the apex `A` record
+to `160.153.0.83`.
+
+Once `.org` is repointed, `kencaldeira.wordpress.com` has no inbound path from
+either domain but stays publicly indexed, competing with the real site. Deleting
+or privatising it is the natural last step; the 14 images rescued from
+`kencaldeira.files.wordpress.com` are now hosted locally, so nothing depends on it.
+
+### Dead-link pass
+
+See `DEAD-LINKS.md` (regenerate with `.venv/bin/python tools/audit_links.py`
+after a build). Of 310 outbound URLs: **24 confirmed gone**, 13 worth a human
+look, and 62 that merely refuse automated requests and are fine in a browser —
+do not "fix" those. Plus the 6 images in `tools/known-missing.txt`; note that
+**4 of those 6 were screenshots of Ken's own tweets**, and he no longer uses
+Twitter, so deleting those figures and keeping the surrounding text is probably
+the right call. Also still open: inline Twitter links, and WordPress's old
+`/feed/` path (now `/feed.xml`) which would need `jekyll-redirect-from` to keep
+working for existing subscribers.
+
+### CIunit split
+
+`CIUNIT-HANDOFF.md` is ready to hand to whoever works on `ciunit.github.io`.
+Regenerate with `.venv/bin/python tools/ciunit_handoff.py` after editing the
+judgment calls in `tools/post-classification.tsv`. **If a post moves, leave a
+redirect** — every post URL has been indexed since as early as 2015.
